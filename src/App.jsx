@@ -127,8 +127,7 @@ const App = () => {
             the Hassle
           </h1> */}
           <BlurText
-            text="Find Movies You'll Enjoy Without
-            the Hassle"
+            text="Find Movies You'll Enjoy Without the Hassle"
             delay={150}
             animateBy="words"
             direction="top"
