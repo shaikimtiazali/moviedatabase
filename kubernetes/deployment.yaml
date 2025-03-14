@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: MovieDatabase
+  name: Moviedatabase
   labels:
-    app: MovieDatabase
+    app: Moviedatabase
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: MovieDatabase
+      app: Moviedatabase
   template:
     metadata:
       labels:
-        app: MovieDatabase
+        app: Moviedatabase
     spec:
       containers:
-        - name: MovieDatabase
+        - name: Moviedatabase
           image: ghcr.io/shaikimtiazali/moviedatabase:sha-fa5823a8822c36e9824abd43262cf890310a4bfe
           imagePullPolicy: Always
           ports:
