@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: Moviedatabase
-          image: ghcr.io/shaikimtiazali/moviedatabase:sha-ab9e132b99c847ee1da36b93187e6aa6e2e533ba
+          image: ghcr.io/shaikimtiazali/moviedatabase:sha-dca3de49b6bf4fc8aff150b9fef94085c43975f0
           imagePullPolicy: Always
           ports:
             - containerPort: 80
